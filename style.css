@@ -1,0 +1,37 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+    background-color: #f5f5f5;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+table, th, td{
+
+    border: 1px solid #dddddd;
+    border-collapse: collapse;
+    min-width: 341px;
+    min-height: 400px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+th{
+
+    background-color: #161313;
+    color: white;
+}
+
+tr:nth-child(odd){
+
+    background-color: #dc827f;
+}
+tr:nth-child(even){
+
+    background-color: #a3bb8a;
+}
